@@ -1,6 +1,6 @@
 # Rails 7 API-only Setup with Devise & Devise JWT
 
-I'm using rbenv as my ruby env manager and rbenv-gemset extension to create collections of gems.
+I'm using [rbenv](https://github.com/rbenv/rbenv) as my ruby env manager and [rbenv-gemset](https://github.com/jf/rbenv-gemset) extension to create collections of gems.
 
 To set this up:
 
@@ -75,7 +75,7 @@ config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 devise_jwt_secret_key: <your_secret>
 ```
 
-**Note!** Devise JWT [encourage](https://github.com/waiting-for-dev/devise-jwt?tab=readme-ov-file#secret-key-configuration) to use a secret different from the `secret_key_base`.
+**Note!** Devise JWT devs [encourage](https://github.com/waiting-for-dev/devise-jwt?tab=readme-ov-file#secret-key-configuration) to use a secret different from the `secret_key_base`.
 
 4. Add the config to `devise.rb`:
 
